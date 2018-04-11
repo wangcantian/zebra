@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.paul.zebra-rpc</groupId>
+  <artifactId>zebra</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>Zebra</name>
+  <description>Zebra is a distributed RPC framework.</description>
+  <url>https://github.com/wangcantian/zebra</url>
+
+  <modules>
+    <module>zebra-all</module>
+    <module>zebra-common</module>
+    <module>zebra-example</module>
+    <module>zebra-rpc</module>
+    <module>zebra-registry</module>
+    <module>zebra-spring-support</module>
+    <module>zebra-spring-support</module>
+    <module>zebra-monitor</module>
+    <module>zebra-transport</module>
+    <module>zebra-serialization</module>
+    <module>zebra-flightexec</module>
+    <module>zebra-extension</module>
+  </modules>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+</project>
